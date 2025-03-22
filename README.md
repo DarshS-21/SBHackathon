@@ -1,1 +1,1 @@
-# SBHackathon - Health and Fintess Tracker 
+# SBHackathon - Health and Fitness Tracker 
