@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Fitness App</title>
+</head>
+<body>
+    <nav>
+        <a href="/" class="logo">Fitness App</a>
+            <div class = "nav-items">
+              <a href="Tracker.html" >Workout Tracker</a>
+              <a href="first.html" >BMI Calculator</a>
+              <a href="bodyfat.html" >Body Fat Percentage Calculator</a>
+              <a href="Water.html" >Water Tracker</a>
+              <a href="second.html" >Articles</a>
+            </div>
+    </nav>
+    <section class="s1">
+        <div class="first_section">
+            <h2 id="demo"></h2>
+
+<script>
+var i = 0;
+var txt = 'Articles';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+
+window.onload = function() {
+  typeWriter();
+};
+</script>
+            <img src="pic.jpg" alt="Person lifting dumbell">
+            <p> Below, you can find a multitude of articles <br> regarding personal fitness.  Our writers are <br> meticulous in their writing process to offer the <br> best and most cohesive tips to boost your <br> physical health journey, no matter how <br> far you are in the process.</p>
+        </div>
+    </section>
+    <div class="button-container">
+        <a href="article2.html">Essential Workout Tips for Beginners: <br> Your Guide to a Healthier Lifestyle</a> <br> <br>
+        <a href="article3.html">Savoring Health: Five Practical Tips <br> for a Balanced Diet</a>
+      </div>
+    <div class ="s2">
+        <img src="thing.png" alt="gym"> 
+    </div>
+    <div class = "s3">
+        <img src="yep.png" alt="pan">
+    </div>
+      
+    <footer>
+        <p>Fitness App</p>
+    </footer>
+</body>
+</html>

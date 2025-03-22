@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fitness App</title>
+</head>
+<body>
+    <nav>
+        <a href="/" class="logo">Fitness App</a>
+            <div class = "nav-items">
+                <a href="Tracker.html" >Workout Tracker</a>
+                <a href="first.html" >BMI Calculator</a>
+                <a href="bodyfat.html" >Body Fat Percentage Calculator</a>
+                <a href="Water.html" >Water Tracker</a>
+                <a href="second.html" >Articles</a>
+            </div>
+    </nav>
+    <section class="s1">
+        <div class="first_section">
+            <h2 id="demo"></h2>
+
+            <script>
+              var i = 0;
+              var txt = 'Your center for z personal fitness';
+              var speed = 50;
+              
+              function typeWriter() {
+                if (i < txt.length) {
+                  if (txt.charAt(i) === 'z') {
+                    document.getElementById("demo").innerHTML += '<br>';
+                  } else {
+                    document.getElementById("demo").innerHTML += txt.charAt(i);
+                  }
+                  i++;
+                  setTimeout(typeWriter, speed);
+                }
+              }
+              
+              window.onload = function() {
+                typeWriter();
+              };
+              </script>
+            <img src="photo.jpg" alt="Person lifting dumbell">
+        </div>
+    </section>
+    <section class="s2">
+        <div class="second_section">
+            <h2>Our Mission</h2>
+            <ul>
+                <li> Promoting widespread awareness about fitness </li>
+                <li> Incorporating a workout in every person's daily routine </li>
+                <li> Create and distribute informational materials, workshops, and online resources to educate the public on personal fitness and its importance </li>
+            </ul>
+        </div>
+      </section>
+    <footer>
+        <p>Fitness App</p>
+    </footer>
+</body>
+</html>

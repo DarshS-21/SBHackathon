@@ -1,0 +1,64 @@
+a{
+    color:white 
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+body{
+    background-color: #161617;
+}
+nav{
+    background-color: rgb(30, 49, 49);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2);
+}
+a{
+    color:white 
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0 1.5rem;
+
+}
+nav a:hover{
+    text-decoration: none;
+    color: rgb(233, 120, 7);
+
+}
+.logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 2rem;
+
+}
+h1 {
+    color: white;
+}
+
+label{
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
